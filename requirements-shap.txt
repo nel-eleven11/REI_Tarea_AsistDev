@@ -1,0 +1,7 @@
+# Python 3.10/3.11 CPU environment used for the generated artifacts.
+tensorflow-cpu==2.18.1
+shap==0.46.0
+opencv-python-headless==4.10.0.84
+matplotlib==3.10.9
+pillow==12.3.0
+numpy==2.0.2

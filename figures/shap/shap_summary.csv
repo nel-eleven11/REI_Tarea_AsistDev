@@ -1,0 +1,4 @@
+sample,true_label,predicted_label,confidence,base_probability,positive_mass,negative_mass,top_abs_region,top_abs_share,top_positive_pixel,top_negative_pixel,additivity_error
+train_misclassified.png,Trains,Cars,0.22286978,0.16722722,5.57960588e-02,-1.53498724e-04,inferior-centro-izquierda,0.38652440,"fila 97, columna 33","fila 33, columna 33",0.00000000e+00
+ship_misclassified.png,Ships,Planes,0.52198553,0.56220675,3.85150313e-04,-4.06063646e-02,inferior-izquierda,0.39606997,"fila 1, columna 65","fila 113, columna 1",0.00000000e+00
+bike_correct.png,Bikes,Bikes,0.64260638,0.23507847,4.07527909e-01,0.00000000e+00,medio-inferior-centro-derecha,0.16032955,"fila 65, columna 65",ninguna,0.00000000e+00

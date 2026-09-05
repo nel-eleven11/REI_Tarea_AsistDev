@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "image_size": [
+    128,
+    128
+  ],
+  "max_evals": 300,
+  "batch_size": 32,
+  "masker": "blur(32,32)",
+  "explainer": "shap.Explainer (Partition for Image masker)",
+  "model_load_mode": "topology+weights fallback",
+  "tensorflow_version": "2.18.1",
+  "shap_version": "0.46.0",
+  "samples": [
+    {
+      "sample": "train_misclassified.png",
+      "true_label": "Trains",
+      "predicted_label": "Cars",
+      "confidence": "0.22286978",
+      "base_probability": "0.16722722",
+      "positive_mass": "5.57960588e-02",
+      "negative_mass": "-1.53498724e-04",
+      "top_abs_region": "inferior-centro-izquierda",
+      "top_abs_share": "0.38652440",
+      "top_positive_pixel": "fila 97, columna 33",
+      "top_negative_pixel": "fila 33, columna 33",
+      "additivity_error": "0.00000000e+00"
+    },
+    {
+      "sample": "ship_misclassified.png",
+      "true_label": "Ships",
+      "predicted_label": "Planes",
+      "confidence": "0.52198553",
+      "base_probability": "0.56220675",
+      "positive_mass": "3.85150313e-04",
+      "negative_mass": "-4.06063646e-02",
+      "top_abs_region": "inferior-izquierda",
+      "top_abs_share": "0.39606997",
+      "top_positive_pixel": "fila 1, columna 65",
+      "top_negative_pixel": "fila 113, columna 1",
+      "additivity_error": "0.00000000e+00"
+    },
+    {
+      "sample": "bike_correct.png",
+      "true_label": "Bikes",
+      "predicted_label": "Bikes",
+      "confidence": "0.64260638",
+      "base_probability": "0.23507847",
+      "positive_mass": "4.07527909e-01",
+      "negative_mass": "0.00000000e+00",
+      "top_abs_region": "medio-inferior-centro-derecha",
+      "top_abs_share": "0.16032955",
+      "top_positive_pixel": "fila 65, columna 65",
+      "top_negative_pixel": "ninguna",
+      "additivity_error": "0.00000000e+00"
+    }
+  ]
+}
