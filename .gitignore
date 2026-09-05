@@ -1,2 +1,5 @@
 /Vehicles
 vehicle-classification.zip
+.jupyter/
+.venv/
+.uv-python/
